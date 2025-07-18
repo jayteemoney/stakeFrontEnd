@@ -73,7 +73,7 @@ const StakingActions = ({ stakingContract, onActionComplete }) => {
         <button
           onClick={handleUnstake}
           disabled={loading}
-          className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition disabled:opacity-50"
+          className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition disabled:opacity-50"
         >
           Unstake
         </button>
